@@ -1,0 +1,68 @@
+!#Output file for device dev_10.1.10.40
+!#Commands executed on 20190521-075510
+!
+show version
+Cisco IOS Software, C2960S Software (C2960S-UNIVERSALK9-M), Version 15.0(1)SE2, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2011 by Cisco Systems, Inc.
+Compiled Thu 22-Dec-11 00:53 by prod_rel_team
+
+ROM: Bootstrap program is Alpha board boot loader
+BOOTLDR: C2960S Boot Loader (C2960S-HBOOT-M) Version 12.2(55r)SE, RELEASE SOFTWARE (fc1)
+
+weddell-sw02 uptime is 11 weeks, 3 days, 20 hours, 19 minutes
+System returned to ROM by power-on
+System image file is "flash:/c2960s-universalk9-mz.150-1.SE2/c2960s-universalk9-mz.150-1.SE2.bin"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+cisco WS-C2960S-48FPS-L (PowerPC) processor (revision E0) with 131072K bytes of memory.
+Processor board ID FOC1610Y1H9
+Last reset from power-on
+1 Virtual Ethernet interface
+1 FastEthernet interface
+52 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 3C:CE:73:BA:94:80
+Motherboard assembly number     : 73-12547-08
+Power supply part number        : 341-0382-02
+Motherboard serial number       : FOC16092386
+Power supply serial number      : LIT16010JSN
+Model revision number           : E0
+Motherboard revision number     : A0
+Model number                    : WS-C2960S-48FPS-L
+Daughterboard assembly number   : 73-11933-04
+Daughterboard serial number     : FOC16071NJH
+System serial number            : FOC1610Y1H9
+Top Assembly Part Number        : 800-32647-03
+Top Assembly Revision Number    : A0
+Version ID                      : V03
+CLEI Code Number                : COMGB00ARC
+Daughterboard revision number   : A0
+Hardware Board Revision Number  : 0x01
+
+
+Switch Ports Model              SW Version            SW Image                 
+------ ----- -----              ----------            ----------               
+*    1 52    WS-C2960S-48FPS-L  15.0(1)SE2            C2960S-UNIVERSALK9-M     
+
+
+Configuration register is 0xF
+
+weddell-sw02#

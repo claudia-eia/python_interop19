@@ -1,0 +1,8 @@
+# Credentials
+# Enter username, password, enable password one per line
+! username, user password, enable password
+# Example (ommitting the !)
+! admin, cisco, cisco
+
+cisco, cisco, cisco
+rviews, rviews, rviews
