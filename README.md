@@ -1,6 +1,33 @@
 # Python Netmiko Starter Kit
 
-This repository provides a simple yet powerful starter kit for using [Netmiko](https://github.com/ktbyers/netmiko) to automate the collection of "show" command outputs from network devices. It is ideal for network engineers and automation beginners who want to quickly gather device information for discovery or documentation purposes.
+## Using uv for Python Environment Management
+
+This repository was created using the [uv](https://github.com/astral-sh/uv) package manager, which provides fast dependency management and seamless virtual environment creation for Python projects.
+
+### Benefits of Using uv
+- **Automatic Virtual Environment Creation:**
+  - `uv run` will automatically create and manage a `.venv` directory for your project if one does not exist.
+- **Easy Script Execution:**
+  - Run any script with all dependencies in place using:
+    ```bash
+    uv run python <scriptname.py>
+    ```
+    For example:
+    ```bash
+    uv run python get_showcmds.py
+    ```
+- **Dependency Management:**
+  - All dependencies are tracked in `pyproject.toml`. To add or update dependencies, edit `pyproject.toml` and run:
+    ```bash
+    uv pip install -r requirements.txt
+    # or add a new package directly
+    uv pip install netmiko
+    ```
+  - After editing `pyproject.toml`, use `uv pip install -r requirements.txt` or `uv pip install <package>` to update your environment.
+- **No Manual Virtualenv Activation Needed:**
+  - Just use `uv run` and everything is handled for you.
+
+---
 
 ## Features
 
