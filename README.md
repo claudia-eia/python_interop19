@@ -1,5 +1,7 @@
 # Python Netmiko Starter Kit
 
+<img src="images/image001.png" alt="image001" style="zoom:50%;" />
+
 ## Using uv for Python Environment Management
 
 This repository was created using the [uv](https://github.com/astral-sh/uv) package manager, which provides fast dependency management and seamless virtual environment creation for Python projects.
@@ -19,12 +21,12 @@ This repository was created using the [uv](https://github.com/astral-sh/uv) pack
 - **Dependency Management:**
   - All dependencies are tracked in `pyproject.toml`. To add or update dependencies, edit `pyproject.toml` and run:
     ```bash
-    uv pip install -r requirements.txt
-    # or add a new package directly
+    # add a new package directly
     uv pip install netmiko
     ```
   - After editing `pyproject.toml`, use `uv pip install -r requirements.txt` or `uv pip install <package>` to update your environment.
 - **No Manual Virtualenv Activation Needed:**
+  
   - Just use `uv run` and everything is handled for you.
 
 ---
