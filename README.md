@@ -1,6 +1,6 @@
 # Python Netmiko Starter Kit
 
-<img src="images/image001.png" alt="image001" style="zoom:50%;" />
+<img src="images/image002.png" alt="image002" style="zoom:50%;" />
 
 ## Using uv for Python Environment Management
 
